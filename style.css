@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: rgb(255, 126, 126);
+    width: 40%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    border: 1px #999 solid;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 250%;
+}
+
+button {
+    background-color: rgb(250, 209, 209);
+    border-radius: 5px;
+    border: 1px #999 solid;
+    padding: 3%;
+    font-size: larger;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 185, 185);
+    font-weight: bold;
+}
+
+#jeu,
+#scores {
+    margin-top: 10%;
+}
+
+.affichage {
+    border: none;
+    background-color: #ffffff00;
+    width: 17%;
+    font-weight: bold;
+}

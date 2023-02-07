@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChiFouMi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f442c55b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <h1>ChiFouMi</h1>
+        <h2>Jouez !</h2>
+        <br>
+        <form>
+            <button type="button" id=bouton_pierre><i class="fa-regular fa-hand-back-fist"></i><br>PIERRE</button>
+            <button type="button" id=bouton_papier><i class="fa-regular fa-hand"></i><br>PAPIER</button>
+            <button type="button" id=bouton_ciseau><i class="fa-regular fa-hand-scissors"></i><br>CISEAU</button>
+        </form>
+        <div id="jeu">
+            <p>Vous avez joué : <input type="text" id="jeuJoueur" class="affichage"></p>
+            <p>L'ordinateur a joué : <input type="text" id="jeuOrdi" class="affichage"></p>
+            <p>Gagnant de la manche : <input type="text" id="winner" class="affichage"></p>
+        </div>
+        <div id=scores>
+        <p>Score joueur : <strong id=scoreJoueur></strong></p>
+        <p>Score ordinateur : <strong id=scoreOrdi></strong></p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
